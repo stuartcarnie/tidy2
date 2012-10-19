@@ -1,0 +1,24 @@
+{
+  "name": "tidy2",
+  "version": "0.0.2",
+  "description": "Simple binding to libtidy; based off original tidy bindings for node",
+  "main": "tidy.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "preinstall": "node-waf configure && node-waf clean build",
+        "preuninstall": "rm -rf build/*"
+    },
+  "repository": "",
+  "keywords": [
+    "tidy",
+    "html"
+  ],
+  "author": "Stuart Carnie <stuart.carnie@gmail.com>",
+    "contributors": [
+        {
+            "name": "Martyn Garcia",
+            "email": "martyn.garcia@gmail.com"
+        }
+    ],
+    "license": "MIT"
+}
